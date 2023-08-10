@@ -1,0 +1,113 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p {
+    /* background-image: url(type.png); */
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a modern sans-serif font */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #000000;
+    text-align: center;
+}
+
+ .container {
+    /*
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);*/
+    background-color: rgb(0, 0, 0);
+}
+
+.heading {
+    font-size: 2.5rem; 
+    color: #ffffff;
+    margin-bottom: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.timer, .errors, .accuracy, .cpm, .wpm {
+    background-color: #326765;
+    height: 60px;
+    width: 70px;
+    margin: 8px;
+    padding: 12px;
+    border-radius: 20%;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header_text {
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.curr_time, .curr_errors, .curr_accuracy, .curr_cpm, .curr_wpm {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+.quote {
+    font-size: 1.2rem;
+    margin: 20px;
+    padding: 25px;
+    background-color: #326765;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.input_area {
+    background-color: #f5f5c6;
+    height: 120px;
+    width: 60%;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 15px;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+    resize: none;
+}
+
+.restart_btn {
+    background-color: #326765;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.restart_btn:hover {
+    background-color: #122626;
+}
